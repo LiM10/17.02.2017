@@ -1,0 +1,427 @@
+html, body{
+	margin: 0;
+	font-family: calibri;
+}
+.clear{
+	clear: both;
+}
+.full{
+	width: 100%;
+}
+.wrapper{
+	width: 1140px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/*header section*/
+.header{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	height: 690px;
+	background-image: url(../images/hero.jpg);
+}
+.navbar .logo{
+	margin: 55px 0;
+}
+.navbar .nav img{
+	margin: 50px 0;
+	padding: 7px;
+	width: 38px;
+	height: 32px;
+}
+.nav p{
+	text-decoration: uppercase;
+	color: #ffffff;
+	margin: 65px 10px;
+}
+.headIntro p{
+	font-size: 47px;
+	color: #ffffff;
+	    margin-top: 130px;
+}
+.headIntro a{
+    font-size: 18px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.headIntro .firstButton{
+	background-color: #ffffff; 
+	color:#71d0d4; 
+	padding: 21px 50px;
+}
+.headIntro .firstButton:hover {
+	background-color: #71d0d4; 
+	color:#ffffff;
+    transition: .5s ease;
+}
+
+.headIntro .secondButton{
+	background-color:transparent; 
+	color:#ffffff; 
+	padding: 19px 46px; 
+	margin-left: 12px;
+	border: 2px solid #ffffff;
+}
+.headIntro .secondButton i{margin-left: 5px;}
+.headIntro .secondButton:hover {
+	background-color:transparent; 
+	color:#71d0d4; 
+	border: 2px solid #71d0d4;
+    transition: .5s ease;
+}
+.headIntro .secondButton:hover ~ i{
+    color:#71d0d4; 
+    transition: .5s ease;
+}
+/*video section*/
+.video{
+	margin: 75px 0;
+	text-align: center;
+}
+.video i, a{
+	vertical-align: middle;
+	color: #323a45;
+}
+.video a{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+    padding: 8px 0px 13px 0;
+}
+.video i{
+    color: #323a45;
+    font-size: 50px;
+	margin-right: 10px;
+}
+.video a:hover,.video a:hover  i {
+	color: #71d0d4;
+    transition: .5s ease;
+}
+
+
+
+/*features section*/
+.features{float: left;}
+.featuresImg{
+	width: 50%;
+	background-size: cover;
+	height: 400px;
+    text-align: center;
+	background-image: url(../images/features-intro.jpg);
+}
+.featuresText{
+	width: 50%;
+	height: 400px;
+	background-color: #3f6184;
+}
+.featuresImg img{
+	width: 63px;
+	height: 72px;
+	margin: 164px 0;
+}
+.featuresText .text-item{
+	padding: 69px 100px;
+    float: left;
+}
+
+.featuresText .text-item h2, .featuresText .text-item p{
+	color: #ffffff;
+    font-weight: 500;
+    line-height: 25px;
+}
+.featuresText .owl-dots{
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 97px;
+}
+.featuresText .owl-dot{
+    float: left;
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.featuresText .owl-dots .active{
+    background: #fff;
+}
+.featuresText p+a{
+	text-decoration: none;
+	color: #71d0d4;
+    font-size: 15px;
+}
+.featuresText ol{
+	text-align: left;
+	margin-top: 60px;
+}
+.featuresText ol a li{
+	width: 13px;
+	height: 13px;
+	margin: 0 12px 0 0;
+	border-radius: 100%;
+	border-color: red;
+	color: #ffffff;
+}
+
+/*featuresList section*/
+
+.featuresList .wrapper .item{
+	width: calc(33.33% - 20px);
+	margin: 130px 10px;
+}
+.featuresList .wrapper .icon{
+	width: 33%;
+}
+.featuresList .wrapper .text{
+	width: 60%;
+}
+
+.featuresList .wrapper .text h1{
+	margin-top: 0;	
+	font-size: 23px;
+	color: #333;
+    font-weight: 500;
+}
+.featuresList .wrapper .text p{
+	color: #778899;
+	font-size: 14px;
+    line-height: 23px;
+    font-family:sans-serif;
+}
+.featuresList .wrapper .text a{
+	text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+.featuresList .wrapper .text a i{
+	margin-left: 5px;
+}
+.featuresList .wrapper a:hover {
+	color: #73d0da;
+    transition: .5s ease;
+}
+
+/*showcase section*/
+
+.showcase {
+	height: 610px;
+	background-image: url(../images/showcase-bg-fixed.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.showcase .iphone,.showcase .service{
+	width: 50%;
+}
+.showcase .service{
+    color: #fff;
+    padding: 111px 0;
+    font-weight: 500;
+}
+
+.showcase .iphone img{
+	width: 247px;
+	height: 445px;
+	background: url(../images/iphone-skeleton.png);
+}
+.showcase .service h1{
+	color: #ffffff;
+	font-size: 25px;
+    font-weight: 500;
+}
+.showcase a{
+	margin-top: 50px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+    padding: 18px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    float: left;
+}
+.showcase a:hover{
+	color: #73d0da;
+	border: 2px solid #73d0da;
+    transition: .5s ease;
+}
+.service .avatar{
+	display: inline-block;
+    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+.service div p{
+	margin: 0;
+    padding: 0;
+    width: 90%;
+    vertical-align: top;
+    font-style: italic;
+}
+.service .logo{
+	display: inline-block;
+    margin: 30px 0 0 0;
+}
+.showcase .iphone{
+    position: relative;
+    height: 720px;
+    background-position: 69px 50px;
+    background-image: url(../images/iphone-skeleton.png);
+    background-repeat: no-repeat;
+}
+.showcase .iphone .gallery{
+    width: 247px;
+    height: 445px;
+    overflow: hidden;
+    position: relative;
+    bottom: -165px;
+    left: 125px;
+}
+.showcase .iphone .gallery .owl-dots{
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+.showcase .iphone .gallery .owl-dot{
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    margin: 0 3px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.showcase .iphone .gallery .owl-dots .active{
+    background: #fff;
+}
+.showcase .iphone img{
+    float: left;
+}
+/*intro section*/
+.intro {
+	background-color: #ffffff;
+	padding: 40px 0 100px 0;
+}
+.intro h1{
+	margin-bottom: 20px;
+	color: #24374b;
+	font-size: 25px;
+    font-weight: 500;
+}
+.intro p{
+	margin-bottom: 20px;
+	color: #24374b;
+    line-height: 25px
+}
+.intro a{
+	color: #73d0da;
+	text-decoration: none;
+}
+
+/*sreenshot section*/
+
+
+.screenshot .up, .down{
+	width: 100%;
+	height: 50%;
+}
+.screenshot a{
+    position: relative;
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+.screenshot img{
+    float: left;
+    width: 100%;
+	height: 250px;
+}
+.screenshot a:hover img{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+.screenshot a:hover .pics-layer{
+    display: block;
+    transition: .5s ease;
+}
+.screenshot .pics-layer{
+    position: absolute;
+    height: 250px;
+    float: left;
+    width: 100%;
+    background: #3f6184;
+    opacity: .7;
+    display: none;
+}
+/*download section*/
+
+.download{
+	padding: 120px 0 135px 0;
+	background-color: #3f6184;
+	text-align: center;
+
+}
+.download h1{
+	margin-top: 0;
+	margin-bottom: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+}
+.download a{
+	margin-top: 25px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+    padding: 18px 60px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.download a i{margin-left: 5px}
+.download a:hover{
+	color: #73d0da;
+	border: 2px solid #73d0da;
+    transition: .5s ease;
+}
+
+/*footer section*/
+
+.footer{
+	float: left;
+    width: 100%;
+    padding: 100px 0;
+	background: #ffffff;
+}
+
+.footer .left_part p{
+	color: #c7cacc;
+    font-size: 12px;
+   	line-height: 25px;
+}
+.footer .right_part ul{
+	margin: 0;
+}
+.footer .right_part ul a li{
+	display: inline;
+	text-transform: uppercase;
+	padding: 55px;
+}
+.footer .right_part ul a{
+	color: #3f6184;
+	font-size: 17px;
+	text-decoration: none;
+}
+.footer .right_part ul a:hover {
+	color: #73d0da;
+    transition: .5s ease;
+}
